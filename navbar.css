@@ -1,0 +1,33 @@
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #91bae0;
+    display: flex;
+}
+.navbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    background-color: rgb(172, 223, 247);
+    color: black;
+}
+.navbar li{
+    flex: 1;
+}
+
+.navbar li a.active {
+    background-color: rgb(172, 223, 247);
+    color: black;
+}
