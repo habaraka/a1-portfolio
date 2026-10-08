@@ -1,0 +1,70 @@
+.projects-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.section-title {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    margin-bottom: 40px;
+
+    border-bottom: 2px solid #2984d9;
+    padding-bottom: 10px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+
+    gap: 4rem;
+
+    margin-bottom: 100px;
+}
+
+.project-image {
+    flex: 1;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.project-description {
+    flex: 1;
+}
+
+.project-description h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.project-description p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.project-description a {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+
+    color: #2984d9;
+    text-decoration: none;
+
+    transition: transform 0.3s ease;
+}
+
+.project-description a:hover {
+    text-decoration: underline;
+    transform: scale(1.1) translateY(-3px);
+}
