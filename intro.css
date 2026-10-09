@@ -1,3 +1,20 @@
+body {
+            background-image: url(images/012cbf6ea3c8285f544741d9aeb4340a.jpg); 
+            
+            background-repeat: no-repeat; 
+            
+            background-position: center center; 
+            
+            background-size: cover; 
+            
+            background-attachment: fixed; 
+            
+            min-height: 100vh; 
+            margin: 0;
+        }
+
+
+
 .main-font1 , .main-font3{
     color :white;
     font-family: 'Montserrat', sans-serif;

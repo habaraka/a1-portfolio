@@ -11,26 +11,56 @@ EMAIL: Habaraka@uci.edu
   <meta name="author" content="Hanin Ali Barakat">
   <meta name="description" content="My career portfolio">
    <!-- you would link to an external stylesheet here! -->
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
    <!-- you would also link to Bootstrap here! -->
   <title>Hanin's Portfolio</title>
 </head>
 <body>
-    <div ID="intro">
-    <h1 style="color:pink">Welcome to Hanin's portfolio</h1>
-    </div>
-    <nav> 
+    <nav class="navbar"> 
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Pojects</a></li>
         <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
       </ul>
     </nav class = "navbar">
-    <main>
-      <div ID="contact">
-        <h1>Contact me through the following</h1>
-        <!--Add links to Linkedin, gmail, phone number-->>
+
+    <main class="contact-page">
+
+    <h1>Get In Touch!</h1>
+
+    <p class="contact-intro">
+        I'm always happy to connect! Feel free to reach out
+        through any of the platforms below.
+    </p>
+
+    <div class="contact-options">
+
+        <a href="mailto:haneen3barakat@gmail.com" class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <h2>Email</h2>
+            <p>Send me a message</p>
+        </a>
+
+      <a href="https://www.linkedin.com/in/hanin-barakat-1a2951280/" class="contact-card">
+            <i class="fa-brands fa-linkedin"></i>
+            <h2>LinkedIn</h2>
+            <p>Let's connect</p>
+        </a>
+
+        <a href="https://github.com/habaraka" class="contact-card">
+            <i class="fa-brands fa-github"></i>
+            <h2>GitHub</h2>
+            <p>View my work</p>
+        </a>
+
       </div>
+      
     </main>
       <p>
     <a href="http://validator.w3.org/check?uri=referer">

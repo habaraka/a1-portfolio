@@ -1,3 +1,16 @@
+body {
+    background-image: url("images/bacjgrounf.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
 .projects-page {
     max-width: 1200px;
     margin: 0 auto;

@@ -11,32 +11,33 @@ EMAIL: Habaraka@uci.edu
   <meta name="author" content="Hanin Ali Barakat">
   <meta name="description" content="My career portfolio">
    <!-- you would link to an external stylesheet here! -->
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="resume.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet">
    <!-- you would also link to Bootstrap here! -->
   <title>Hanin's Portfolio</title>
 </head>
 <body>
-    <section>
-    <h1 style="color:pink">Welcome to Hanin's portfolio</h1>
-    </section>
     <nav class = "navbar"> 
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="projects.html">Pojects</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a class="active" href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
-      <div ID = "Resume">
+      <div class= "resume-page">
         <h1>Personal Resume</h1>
-        <a href="/Users/neno/Desktop/RANDOM/resumes/resumes/Hanin Barakat-Master CV.pdf" alt="Resume document">View My Resume</a>
-      </div>
+        <div class = "resume-viewer">
+          <iframe
+            src="files/Hanin Barakat-Master CV.pdf"
+            title="Hanin Barakat Resume">
+        </iframe>
+        </div>
       </div>
     </main>
-        
-
-
-      
       <p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
