@@ -81,3 +81,32 @@ body {
     text-decoration: underline;
     transform: scale(1.1) translateY(-3px);
 }
+
+@media (max-width: 768px){
+
+    .project{
+        flex-direction: column;
+    }
+
+    .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin-bottom: 40px;
+
+}
+
+.project-description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+}

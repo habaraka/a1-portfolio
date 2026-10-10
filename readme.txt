@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for *Hanin Ali Barakat*, *Habaraka@uci.edu*--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -12,7 +12,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 */10
 - */1 Readme
-- */2 Basic HTML content
+- 2/2 Basic HTML content
 - */1 Basic CSS styling
 - */1 Advanced feature
 - */2 Responsive layout
@@ -22,14 +22,24 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
+-A profile image with a descreptive alt
+-Appropriate headings and paragraph text (Home, About me, project descreptions, etc)
+-Links to external page(s)(links in the navigation bar and my contact information)
+-Multiple pages, with appropriate navigation between them ((links in the navigation bar and my contact information))
+-Adding custom icons from Google Material Icons, Font Awesome, or similar (using Font Awesome)
+
+
 
 
 
 (b) CSS features
-
+-Modifying padding and margins to indent content and enhance readability
+-Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the resources tab
+-Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 
 (c) Advanced features
+-Creating a more complex page layout( I did a navigation bar)
 
 
 
@@ -39,6 +49,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. How long, in hours, did it take you to complete this assignment?
+7 hours
 
 
 
@@ -46,7 +57,9 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 
+
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
+-
 
 
 

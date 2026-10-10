@@ -31,3 +31,14 @@
     background-color: rgb(172, 223, 247);
     color: black;
 }
+
+@media (max-width: 768px){
+
+    .navbar ul {
+        flex-direction: column;
+
+    }
+
+
+
+}
