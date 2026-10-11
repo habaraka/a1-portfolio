@@ -51,7 +51,7 @@ body {
     flex: 1;
 }
 
-.project-description h2 {
+.project-description h3 {
     font-family: "Quicksand", sans-serif;
     font-size: 2rem;
     margin-bottom: 15px;
@@ -82,6 +82,18 @@ body {
     transform: scale(1.1) translateY(-3px);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 @media (max-width: 768px){
 
     .project{
@@ -96,7 +108,7 @@ body {
 
 }
 
-.project-description h2 {
+.project-description h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
 }

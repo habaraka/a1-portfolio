@@ -70,3 +70,59 @@ body {
 .contact-card p {
     margin: 0;
 }
+
+@media (max-width: 768px) {
+
+    .contact-page {
+        padding: 50px 20px;
+    }
+
+    .contact-page h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-intro {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .contact-options {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-card {
+        width: 80%;
+        max-width: 280px;
+        padding: 25px 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1032px) {
+
+    .contact-page {
+        padding: 60px 20px;
+    }
+
+    .contact-page h1 {
+        font-size: 3rem;
+    }
+
+    .contact-intro {
+        font-size: 2rem;
+        margin-bottom: 60px;
+    }
+
+    .contact-options {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contact-card {
+        width: 80%;
+        max-width: 280px;
+        padding: 30px 25px;
+    }
+}
