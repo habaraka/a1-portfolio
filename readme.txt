@@ -22,7 +22,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
--A profile image with a descreptive alt text
+-A profile image with a descriptive alt text
 -Appropriate headings and paragraph text (Home, About me, project descriptions, etc)
 -Links to external page(s)(links in the navigation bar and my contact information)
 -Multiple pages, with appropriate navigation between them ((links in the navigation bar and my contact information))
@@ -40,12 +40,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (c) Advanced features
 -Created a more complex page layout using a navigation bar
+-Welcome page and interactive hover effects
 
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
--AChecker reported problems with using <i> elements in contact.html and index.html. These elements are used by Font Awesome to display Email, LinkedIn, and GitHub icons, not to italicize text. Therefore, I chose to keep them the same.
+AChecker reported problems with using <i> elements in contact.html and home.html. These elements are used by Font Awesome to display Email, LinkedIn, and GitHub icons, not to italicize text. Therefore, I chose to keep them unchanged.-AChecker reported problems with using <i> elements in contact.html and index.html. These elements are used by Font Awesome to display Email, LinkedIn, and GitHub icons, not to italicize text. Therefore, I chose to keep them the same.
 -AChecker reported that the website may be missing a "skip to content" link. I reviewed this as a potential accessibility improvement but chose not to implement it because the website is small and has a short, consistent navigation bar.
 
 4. How long, in hours, did it take you to complete this assignment?
@@ -74,4 +75,4 @@ I did not directly consult any classmates, however in Slack I asked about:
 
 
 7. Is there anything special we need to know in order to run your code?
-No special setup is required. The website can be run by opening index.html in a web browser. An internet connection is required to load external resources such as Google Fonts and Font Awesome.
+No special setup is required. The website can be run by opening index.html in a web browser. This opens the Welcome page, where users can click the "About Me!" button to access the main portfolio. An internet connection is required to load external resources such as Google Fonts and Font Awesome.
